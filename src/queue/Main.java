@@ -18,6 +18,15 @@ public class Main {
         System.out.println("prima valoare introdusa: " + mq.peek());
         System.out.println("prima valoare eliminata: " + mq.pop());
 
+        MyArrayQueue ma = new MyArrayQueue();
+        ma.push(3);
+        ma.push(2);
+        ma.push(4);
+        ma.push(5);
+        ma.showStack();
+        System.out.println("ultimul element: " + ma.peek());
+        System.out.println("elementul sters: " + ma.pop());
+
 
     }
 }
